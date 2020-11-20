@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const url = "mongodb+srv://admin:root@testing.l4cpi.mongodb.net/ecommerce?retryWrites=true&w=majority"
+const url = ""
 
 mongoose
     .connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: true })
